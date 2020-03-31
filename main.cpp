@@ -6,10 +6,15 @@ class Kalkulator
 public:
     int x, y;
 
-    void pertambahan()
-    {
+    void pertambahan() {
+        int x, y;
 
-   }
+        cout << "Masukkan Nilai X  : ";
+        cin >> x;
+        cout << "Masukkan Nilai Y  : ";
+        cin >> y;
+        cout << "Hasil Pertambahan : " << x + y << endl;
+    }
 
 main()
 {
