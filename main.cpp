@@ -8,8 +8,17 @@ public:
 
     void pertambahan()
     {
+        cout << "Masukkan Nilai X  : ";
+        cin >> x;
+        cout << "Masukkan Nilai Y  : ";
+        cin >> y;
+        cout << "Hasil Pertambahan : " << x + y << endl;
+    }
 
-   }
+    // pengurangan
+
+    // pembagian
+};
 
 main()
 {
@@ -17,5 +26,4 @@ main()
 
     // nanti tinggal running aja methodnya
     // contoh kalk.pertambahan();
-   
 }
