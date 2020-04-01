@@ -41,6 +41,20 @@ public:
         cout << " Hasil : " << x / (float)y << endl;
     };
 
+
+    // fungsi-pembagian
+    void pembagian()
+    {
+        cout << "PEMBAGIAN" << endl;
+        cout << "==========" << endl;
+        cout << " X : ";
+        cin >> x;
+        cout << " Y : ";
+        cin >> y;
+
+        cout << " Hasil : " << x / (float)y;
+    };
+
     // perkalian
     void perkalian()
     {
@@ -50,6 +64,7 @@ public:
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
         cout << "Hasil Perkalian : " << x * y << endl;
+        cout << " Hasil Perkalian : " << x * y << endl;
     }
 };
 
