@@ -9,22 +9,24 @@ public:
     //pertambahan
     void pertambahan()
     {
+        cout << "Pertambahan" << endl;
         cout << "Masukkan Nilai X  : ";
         cin >> x;
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
         cout << "Hasil Pertambahan : " << x + y << endl;
-    }
+    };
 
     //pengurangan
     void pengurangan()
     {
+        cout << "Pengurangan" << endl;
         cout << "Masukkan Nilai X  : ";
         cin >> x;
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
         cout << " Hasil Pengurangan : " << x - y << endl;
-    }
+    };
 
     // fungsi-pembagian
     void pembagian()
@@ -38,6 +40,17 @@ public:
 
         cout << " Hasil : " << x / (float)y;
     };
+
+    // perkalian
+    void perkalian()
+    {
+        cout << "Perkalian" << endl;
+        cout << "Masukkan Nilai X  : ";
+        cin >> x;
+        cout << "Masukkan Nilai Y  : ";
+        cin >> y;
+        cout << " Hasil Perkalian : " << x * y << endl;
+    }
 };
 
 main()
