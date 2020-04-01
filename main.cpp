@@ -12,7 +12,7 @@ public:
         cin >> x;
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
-        cout << "Hasil Pertambahan : " << x - y << endl;
+        cout << "Hasil Pengurangan: " << x - y << endl;
     }
 
 };
