@@ -16,6 +16,12 @@ public:
     }
 
     // pengurangan
+    void pengurangan(){
+        cout << "Masukkan Nilai X  : ";
+        cin >> x;
+        cout << "Masukkan Nilai Y  : ";
+        cin >> y;
+        cout<<" Hasil Pengurangan : "<< x - y <<endl;
 
     // pembagian
 };
@@ -23,7 +29,6 @@ public:
 main()
 {
     Kalkulator kalk;
-
     // nanti tinggal running aja methodnya
     // contoh kalk.pertambahan();
 }
