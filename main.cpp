@@ -23,13 +23,14 @@ public:
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
         cout << " Hasil Pengurangan : " << x - y << endl;
-
-        // pembagian
     };
 
-    main()
-    {
-        Kalkulator kalk;
-        // nanti tinggal running aja methodnya
-        // contoh kalk.pertambahan();
-    }
+    // pembagian
+};
+
+main()
+{
+    Kalkulator kalk;
+    // nanti tinggal running aja methodnya
+    // contoh kalk.pertambahan();
+}
