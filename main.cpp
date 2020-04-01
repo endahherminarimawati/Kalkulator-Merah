@@ -27,6 +27,17 @@ public:
     }
 
     // pembagian
+    void pembagian()
+    {
+        cout << "PEMBAGIAN" << endl;
+        cout << "==========" << endl;
+        cout << " X : ";
+        cin >> x;
+        cout << " Y : ";
+        cin >> y;
+
+        cout << " Hasil : " << x / (float)y;
+    };
 };
 
 main()
