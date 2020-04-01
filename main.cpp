@@ -26,7 +26,7 @@ public:
         cout << " Hasil Pengurangan : " << x - y << endl;
     }
 
-    // pembagian
+    // fungsi-pembagian
     void pembagian()
     {
         cout << "PEMBAGIAN" << endl;
